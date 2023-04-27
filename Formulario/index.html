@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    <link rel="stylesheet" href="style.css">
+     
+   
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>formulario</title> 
+</head>
+<body>
+    <div class="container">
+        <header>Cadastro</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Informações Pessoais</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nome Completo</label>
+                            <input type="text"required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text"required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Telefone</label>
+                            <input type="number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Basico</label>
+                            <select required>
+                                <option disabled selected>Seleciona o plano</option>
+                                <option>R$ 9,90/Mensal</option>
+                                <option>R$ 59,9/Semestral</option>
+                                <option>R$ 118,40/Anual</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Top</label>
+                            <select required>
+                                <option disabled selected>Seleciona o plano</option>
+                                <option>R$ 19,90/Mensal</option>
+                                <option>R$ 119,90/Semestral</option>
+                                <option>R$ 238,80/Anual</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Leite</label>
+                            <select required>
+                                <option disabled selected>Seleciona o plano</option>
+                                <option>R$ 29,90/Mensal</option>
+                                <option>R$ 179,40/Semestral</option>
+                                <option>R$ 358,80/Anual</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="nextBtn">
+                    <span class="btnText">Proximo</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+               
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Mais Detalhes</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>CPF</label>
+                            <input type="number"required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Endereço</label>
+                            <input type="text"required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>CEP</label>
+                            <input type="number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Cidade</label>
+                            <input type="Text" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Estado</label>
+                            <input type="Text" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Complemento</label>
+                            <input type="Text" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Rua</label>
+                            <input type="Text" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Número</label>
+                            <input type="number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Bairro</label>
+                            <input type="Text" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <div class="backBtn">
+                        <i class="uil uil-navigator"></i>
+                        <span class="btnText">Volta</span>
+                    </div>
+                        
+                    <button class="sumbit">
+                        <span class="btnText">submeter</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
